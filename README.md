@@ -1,4 +1,4 @@
-# Erisia Research System
+# Deep Research System
 
 Modular paper-analysis and deep-research agent designed for loose coupling and later integration into larger systems.
 
