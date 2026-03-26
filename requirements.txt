@@ -1,0 +1,8 @@
+groq
+pydantic
+python-dotenv
+rich
+pymupdf
+sounddevice
+scipy
+

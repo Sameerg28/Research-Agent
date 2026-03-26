@@ -1,0 +1,142 @@
+2026-03-26 14:02:36,318 | INFO | core.api | Paper split into 3 chunk(s)
+2026-03-26 14:02:36,320 | INFO | core.api | Chunk 1, attempt 1
+2026-03-26 14:02:42,444 | DEBUG | core.api | Raw output (chunk 1):
+42 possible control-flow states, ct = 3 context variables (order status, delivery status, and invoice status), mt = 5 economic states (discretized purchase order value), and at = 4 actor classes (requester, approver, procurement officer, and accounting officer). This gives the full state vector st as a 42 × 3 × 5 × 4 = 2520 vector of binary indicators. The transition kernel Pt,st →s(t+1) captures workflow dynamics. We treat Pt,st as the matrix of next-state conditional probabilities given the cu
+2026-03-26 14:02:42,445 | INFO | core.api | Chunk 2, attempt 1
+2026-03-26 14:02:46,261 | DEBUG | core.api | Raw output (chunk 2):
+```json
+{
+  "paper_title": "Untitled Paper",
+  "context_version": "No context provided",
+  "understanding": {
+    "simple_explanation": "This research analyzes the use of artificial intelligence agents in enterprise settings, focusing on the trade-off between reliability and oversight cost. It introduces a framework to measure support, entropy, and risk in event logs, which can help identify where autonomous execution is statistically justified. The study uses a real-world dataset to demonstrate
+2026-03-26 14:02:46,262 | INFO | core.api | Chunk 3, attempt 1
+2026-03-26 14:02:49,137 | DEBUG | core.api | Raw output (chunk 3):
+{
+  "paper_title": "Untitled Paper",
+  "context_version": "No context provided",
+  "understanding": {
+    "simple_explanation": "This research paper discusses various approaches to safe reinforcement learning, including constrained policy optimization and counterfactual risk minimization. It also touches on the importance of evaluating and learning from logged bandit feedback. The paper aims to improve the harmlessness of AI systems by incorporating feedback mechanisms. The authors explore diffe
+2026-03-26 14:02:49,147 | INFO | erisia.raw | SUCCESS | paper=papers/yourfile.pdf | mode=dual | title=The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence
+2026-03-26 14:15:31,762 | INFO | core.api | Paper split into 3 chunk(s)
+2026-03-26 14:15:31,763 | INFO | core.api | Chunk 1, attempt 1
+2026-03-26 14:15:38,909 | DEBUG | core.api | Raw output (chunk 1):
+(ac t−1, dc t , vf t , em t , ar t ), (2) where ac t−1 ∈A is the most recent action in the workflow, dc t ∈ {0, 1} ∈D is a document status indicator, vf t ∈ {0, 1} ∈V is a verification flag, em t ∈E represents the economic magnitude of the case, and ar t ∈ {R, A, B} ∈A represents the actor class or role responsible for carrying out the action (R denotes the requestor; A denotes the approver; B denotes the buyer). The transition dynamics can be described as follows: The process transitions from s
+2026-03-26 14:15:38,910 | WARNING | core.api | Attempt 1 failed: Could not extract valid JSON from response:
+(ac t−1, dc t , vf t , em t , ar t ), (2) where ac t−1 ∈A is the most recent action in the workflow, dc t ∈ {0, 1} ∈D is a document status indicator, vf t ∈ {0, 1} ∈V is a verification flag, em t ∈E represents the economic magnitude of the case, and ar t ∈ {R, A, B} ∈A represents the actor class or 
+2026-03-26 14:15:40,910 | INFO | core.api | Chunk 1, attempt 2
+2026-03-26 14:15:45,129 | DEBUG | core.api | Raw output (chunk 1):
+42 distinct state labels and 42 distinct next-action labels. As a practical matter, this dimensionality leaves the state-space transition matrix P (s|s0) and the visitation-frequency measure µ(s) well-defined. For example, if 5000 workflow cases enter the procure- ment state followed by 3500 cases entering the invoice-issued state, then the state-transition probability P (s = invoice-issued|s0 = procurement) equals 7/10. In this example, the visitation-frequency measure µ(s) will weight states a
+2026-03-26 14:15:45,130 | INFO | core.api | Chunk 2, attempt 1
+2026-03-26 14:15:51,268 | DEBUG | core.api | Raw output (chunk 2):
+```json
+{
+  "paper_title": "Untitled Paper",
+  "context_version": "No context provided",
+  "understanding": {
+    "simple_explanation": "This research paper discusses the challenges of deploying artificial intelligence agents in enterprise settings, focusing on the trade-off between reliability and oversight cost. The study uses a dataset of business processes to analyze the support and entropy of different states and actions, and how these factors impact the performance of AI agents. The paper 
+2026-03-26 14:15:51,284 | INFO | core.api | Chunk 3, attempt 1
+2026-03-26 14:16:02,635 | DEBUG | core.api | Raw output (chunk 3):
+{
+  "paper_title": "Untitled Paper",
+  "context_version": "No context provided",
+  "understanding": {
+    "simple_explanation": "This paper discusses the concept of Constitutional AI, which aims to make AI systems harmless through feedback mechanisms. The authors explore various techniques, including constrained policy optimization and counterfactual risk minimization, to ensure that AI systems behave in a safe and desired manner. The paper also touches on the importance of process mining and co
+2026-03-26 14:16:02,637 | INFO | erisia.raw | SUCCESS | paper=c:\Users\legen\OneDrive\Attachments\Desktop\Research Agent v1.0\papers\yourfile.pdf | mode=dual | title=The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence
+2026-03-26 14:32:10,362 | INFO | core.api | Paper split into 3 chunk(s)
+2026-03-26 14:32:10,364 | INFO | core.api | Chunk 1, attempt 1
+2026-03-26 14:32:12,298 | DEBUG | core.api | Raw output (chunk 1):
+{Activity, Case context variables, Case amount, Orgunit}, (2) where Orgunit is an actor class. The Markov framework for workflow reliability auditing thus treats each trajectory (case) γc as an observed sample path. For a given policy π(a|s) and workflow state s, the set of next actions Aπ(s) = {a ∈ A: π(a|s) > 0} is the set of actions supported by the policy at state s. The workflow visitation measure μπ(s, a) is the steady-state long-run fraction of time that the workflow is in state-action pa
+2026-03-26 14:32:12,299 | WARNING | core.api | Attempt 1 failed: Could not extract valid JSON from response:
+{Activity, Case context variables, Case amount, Orgunit}, (2) where Orgunit is an actor class. The Markov framework for workflow reliability auditing thus treats each trajectory (case) γc as an observed sample path. For a given policy π(a|s) and workflow state s, the set of next actions Aπ(s) = {a ∈
+2026-03-26 14:32:14,300 | INFO | core.api | Chunk 1, attempt 2
+2026-03-26 14:32:21,792 | DEBUG | core.api | Raw output (chunk 1):
+3-tuple (current activity, document status, orderer class). Given this state structure, the next-action sampling distribution π(·|st) determines the probability of transitioning from st to its successors s t+1. For a given policy π that maps states to actions, we can associate each possible next state st+1 with a set of possible predecessor states st. The transition probability P (st+1|st) is then an off-policy quantity when evaluated under the logging policy πlog. For this Markov system, we int
+2026-03-26 14:32:21,793 | INFO | core.api | Chunk 2, attempt 1
+2026-03-26 14:32:30,592 | DEBUG | core.api | Raw output (chunk 2):
+```json
+{
+  "paper_title": "Evaluating Agentic Artificial Intelligence in Enterprise Settings",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "This paper discusses how to evaluate and improve artificial intelligence agents in enterprise settings, focusing on reliability and oversight costs. It presents a framework to measure the support and ambiguity of state-action pairs, allowing for the identification of areas where autonomy is justified or where hum
+2026-03-26 14:32:30,593 | INFO | core.api | Chunk 3, attempt 1
+2026-03-26 14:32:52,915 | DEBUG | core.api | Raw output (chunk 3):
+```json
+{
+  "paper_title": "Constitutional AI: Harmlessness from AI Feedback and Related Research",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "This research explores the concept of Constitutional AI, which focuses on creating AI systems that are harmless and beneficial to humans. The paper discusses various approaches to achieving harmlessness, including constrained policy optimization and counterfactual risk minimization. The research also touches 
+2026-03-26 14:32:52,919 | INFO | erisia.raw | SUCCESS | paper=c:\Users\legen\OneDrive\Attachments\Desktop\Research Agent v1.0\papers\yourfile.pdf | mode=dual | title=The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence
+2026-03-26 15:34:55,210 | INFO | core.api | Paper split into 3 chunk(s)
+2026-03-26 15:34:55,211 | INFO | core.api | Chunk 1, attempt 1
+2026-03-26 15:35:05,453 | DEBUG | core.api | Raw output (chunk 1):
+42, representing the state of the purchase order, and at = 42, representing the next action in the workflow process. Let π(a|s) be the policy that generates actions given the workflow state. The Markov transition kernel P (s |s, a) defines the probabilistic law of motion for the sequence of workflow states. In the absence of a fully explicit process model or a well-defined objective function, we are left to reason about statistical support and uncertainty in terms of state visitation measure μ a
+2026-03-26 15:35:05,455 | WARNING | core.api | Attempt 1 failed: Could not extract valid JSON from response:
+42, representing the state of the purchase order, and at = 42, representing the next action in the workflow process. Let π(a|s) be the policy that generates actions given the workflow state. The Markov transition kernel P (s |s, a) defines the probabilistic law of motion for the sequence of workflow
+2026-03-26 15:35:07,459 | INFO | core.api | Chunk 1, attempt 2
+2026-03-26 15:35:11,045 | DEBUG | core.api | Raw output (chunk 1):
+3-tuple <activity, case attributes, actor class>. Our objective here is to assess the workflow reliability, which we will formalize by the notion of blind mass. 
+
+{"paper_title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence", "context_version": "Erisia Context v1", "understanding": {"simple_explanation": "This paper proposes a Markovian framework to assess the reliability and oversight cost of agentic art
+2026-03-26 15:35:11,048 | INFO | core.api | Chunk 2, attempt 1
+2026-03-26 15:35:22,113 | DEBUG | core.api | Raw output (chunk 2):
+```json
+{
+  "paper_title": "Audit of Agentic Artificial Intelligence in Enterprise Settings",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "This paper analyzes the deployment of artificial intelligence in enterprise settings, focusing on the reliability and oversight cost of agentic AI. It introduces a framework to measure the support, entropy, risk, and oversight cost of AI systems. The study uses the BPI 2019 purchase-to-pay log to demonstrate the ef
+2026-03-26 15:35:22,114 | INFO | core.api | Chunk 3, attempt 1
+2026-03-26 15:35:43,305 | DEBUG | core.api | Raw output (chunk 3):
+```json
+{
+  "paper_title": "Constitutional AI: Harmlessness from AI feedback",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "This paper explores the concept of Constitutional AI, which focuses on creating AI systems that are harmless and aligned with human values through feedback mechanisms. The researchers discuss various approaches to achieving harmlessness, including constrained policy optimization and counterfactual risk minimization. The goal is t
+2026-03-26 15:35:43,311 | INFO | erisia.raw | SUCCESS | paper=c:\Users\legen\OneDrive\Attachments\Desktop\Research Agent v1.0.apk\papers\yourfile.pdf | mode=dual | title=The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence
+2026-03-26 15:36:16,207 | INFO | core.api | Paper split into 5 chunk(s)
+2026-03-26 15:36:16,207 | INFO | core.api | Chunk 1, attempt 1
+2026-03-26 15:36:20,137 | DEBUG | core.api | Raw output (chunk 1):
+```json
+{
+  "paper_title": "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "HuggingGPT is a system that uses large language models like ChatGPT to manage and coordinate with other AI models to solve complex tasks. It works by breaking down user requests into smaller tasks, selecting the right models for each task, executing the tasks, and then generating a response. This approach
+2026-03-26 15:36:20,138 | INFO | core.api | Chunk 2, attempt 1
+2026-03-26 15:36:47,791 | DEBUG | core.api | Raw output (chunk 2):
+```json
+{
+  "paper_title": "HuggingGPT: A System for Solving AI Tasks with Language as the Interface",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "HuggingGPT is a system that uses large language models (LLMs) as a controller to manage AI models and solve user requests. It achieves this by decomposing tasks into smaller sub-tasks, selecting the most suitable models for each task, and executing them in the correct order. The system relies on LLMs to un
+2026-03-26 15:36:47,792 | INFO | core.api | Chunk 3, attempt 1
+2026-03-26 15:37:21,809 | DEBUG | core.api | Raw output (chunk 3):
+```json
+{
+  "paper_title": "HuggingGPT: A Multi-Model Collaborative System for Task-Oriented Dialogue",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "HuggingGPT is a system that combines the capabilities of multiple AI models to better understand and respond to user requests. It breaks down complex tasks into smaller sub-tasks, assigns suitable models for each task, and integrates the results to generate a final response. This allows HuggingGPT to tack
+2026-03-26 15:37:21,810 | INFO | core.api | Chunk 4, attempt 1
+2026-03-26 15:37:50,277 | DEBUG | core.api | Raw output (chunk 4):
+```json
+{
+  "paper_title": "HuggingGPT: A Collaborative System for Task Automation",
+  "context_version": "Erisia Context v1",
+  "understanding": {
+    "simple_explanation": "HuggingGPT is a system that uses a large language model to automate tasks by breaking them down into smaller sub-tasks and executing them using specialized models. It can handle a wide range of tasks, including text, image, and audio processing. HuggingGPT uses a global planning strategy to decompose user requests into task
+2026-03-26 15:37:50,278 | INFO | core.api | Chunk 5, attempt 1
+2026-03-26 15:38:22,635 | DEBUG | core.api | Raw output (chunk 5):
+```
+{
+  "paper_title": "Untitled Paper",
+  "context_version": "No context provided",
+  "understanding": {
+    "simple_explanation": "This paper appears to discuss a system that can perform various tasks such as object detection, image classification, and visual question answering. The system uses multiple models to accomplish these tasks and can generate text, images, and audio. The paper provides several case studies to demonstrate the system's capabilities.",
+    "one_line_core": "The paper pr
+2026-03-26 15:38:22,636 | INFO | erisia.raw | SUCCESS | paper=c:\Users\legen\OneDrive\Attachments\Desktop\Research Agent v1.0.apk\papers\2303.17580v4.pdf | mode=dual | title=HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face
